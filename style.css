@@ -1,3 +1,82 @@
-h2{
-    background-color: brown;
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+}
+.common-btn{
+    background-color: #1D4ED8;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 12px;
+    border: none;
+}
+/* Navigation Bar */
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    padding: 20px 80px;
+    align-items: center;
+}
+ul{
+    display: flex;
+    justify-content:center; 
+    gap:20px; 
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #575757;
+}
+/* Navigation Bar */
+
+/*  heading Bar  */
+
+.hero-banner{
+ background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    ), url("./assets/banner.jpg");
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-contant{
+    text-align: center;
+    color: white;
+    max-width: 900px;
+    margin-top: 30px;
+
+}
+.heading-1{
+    font-family: "Inter", sans-serif;
+    font-size: 80px;
+    margin-top: ;: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.paragraph-1{
+    font-size: 22px;
+    color: #FFFFFF;
+    margin-bottom: 250px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+}
+.register-btn{
+    background-color: #1D4ED8;
+    color: #FFFFFF;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
 }
