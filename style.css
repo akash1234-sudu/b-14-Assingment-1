@@ -1,7 +1,6 @@
 *{
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
     font-family: "Inter", sans-serif;
 }
 .common-btn{
@@ -10,6 +9,10 @@
     padding: 15px 30px;
     border-radius: 12px;
     border: none;
+    cursor: pointer;
+}
+.common-btn:hover{
+    background-color: #6c5ce7;
 }
 /* Navigation Bar */
 nav{
@@ -82,6 +85,10 @@ a{
     border: none;
     font-size: 20px;
     font-weight: 600;
+    cursor: pointer;
+}
+.register-btn:hover{
+    background-color: #6c5ce7;
 }
 /*------Member-Container---------*/
 
@@ -440,21 +447,34 @@ a{
   }
 }
 /*----------------FOOTER-SECTION----------------------*/
-
-.footer-left{
-    display: flex;
-    justify-content: space-between;
-    background-color: #0D1B2A;;
-    padding: 20px 80px;
-    align-items: center;
-    flex-wrap: wrap;
+.footer{
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 20px 60px;
+    background-color:   #EFF6FF;
 }
-.footer-right{
+.footer-container{
     display: flex;
     justify-content: space-between;
-    padding: 20px;
-   gap: 20px;
-    flex-wrap: wrap;
-
-
+    align-items: center;
+}
+.footer-container span{
+    margin-left: 20px;
+    font-size: 24px;
+    cursor: pointer;
+}
+.divider{
+    margin: 10px 0;
+    border: none;
+    border-top: 1px solid #e5e6e9;
+}
+.Copyright-message{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+.footer-links{
+    display: flex;
+    gap: 40px;
 }
