@@ -68,7 +68,9 @@ a{
 .paragraph-1{
     font-size: 20px;
     color: #FFFFFF;
+    text-align: center;
     max-width:700px;
+    margin: 0 auto;
     margin-bottom: 200px;
     font-weight: 400;
 }
