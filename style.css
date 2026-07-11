@@ -287,6 +287,9 @@ a{
     background-color: #e5e6e9;
     margin: 18px 0;
 }
+li::marker {
+    color: #2563EB;
+}
 
 /*----------------------AI-hackathon-part-replace the "Something Missing" block with this --------->*/
 .hackathon-section {
