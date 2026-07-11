@@ -175,7 +175,7 @@ a{
 .pricing-card{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    gap:25px;
+    gap: 20px;
 }
 .standard,
 .pro,
@@ -183,17 +183,17 @@ a{
     background-color: #ffffff;
     border: 1px solid #dcdcdc;
     border-radius: 12px;
-    padding: 20px;
+    padding: 22px;
     display: flex;
     flex-direction: column;
 }
 .pricing-card ul{
-    padding: 20px;
-    margin: 15px 0;
+    padding: 0 20px;
+    margin: 10px 0;
     color: #333333;
 }
 .pricing-card li{
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .person{
